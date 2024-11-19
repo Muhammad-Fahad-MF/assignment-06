@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image'
 import { HiStar } from 'react-icons/hi';
-import { FaCircle, FaStar } from "react-icons/fa";
+import { FaCircle } from "react-icons/fa";
 import { BsArrowRightCircle } from "react-icons/bs";
 import { BsArrowLeftCircle } from "react-icons/bs";
 import { MdMenu } from "react-icons/md";
