@@ -11,6 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#f7f7f7",
+        secondary: "#676767"
+      },
+      fontFamily: {
+        RobotoRegular: ['RobotoRegular'],
+        RobotoBold: ['RobotoBold'] ,
+        InterBold: ['InterBold'],
       },
     },
   },

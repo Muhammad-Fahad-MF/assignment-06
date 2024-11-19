@@ -2,20 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+    font-family: RobotoRegular;
+    src: url("/fonts/Roboto-Regular.ttf") format("truetype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+    font-family: RobotoBold;
+    src: url("/fonts/Roboto-Bold.ttf") format("truetype");
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+@font-face {
+    font-family: InterBold;
+    src: url("/fonts/Inter_24pt-Bold.ttf") format("truetype");
 }
+
