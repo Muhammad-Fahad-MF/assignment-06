@@ -27,8 +27,8 @@ export default function courses() {
           </ul>
         </section>
         <div className="flex flex-col gap-16">
-          <span className="flex gap-8 max-sm:flex-col">
-            <div className="bg-primary2 w-[416px] min-h-[534px] flex flex-col gap-6 rounded-[5px]">
+          <span className="flex gap-8 max-sm:flex-col max-xs:items-center">
+            <div className="bg-primary2 w-[416px] min-h-[534px] flex flex-col gap-6 rounded-[5px] max-xs:w-[370px]">
               <Image
                 src="/images/CardImgs/Image.svg"
                 alt="CardImage"
@@ -66,7 +66,7 @@ export default function courses() {
                 </div>
               </div>
             </div>
-            <div className="bg-primary2 w-[416px] min-h-[534px] flex flex-col gap-6 rounded-[5px]">
+            <div className="bg-primary2 w-[416px] min-h-[534px] flex flex-col gap-6 rounded-[5px] max-xs:w-[370px]">
               <Image
                 src="/images/CardImgs/Image6.svg"
                 alt="CardImage"
@@ -104,7 +104,7 @@ export default function courses() {
                 </div>
               </div>
             </div>
-            <div className="bg-primary2 w-[416px] min-h-[534px] flex flex-col gap-6 rounded-[5px]">
+            <div className="bg-primary2 w-[416px] min-h-[534px] flex flex-col gap-6 rounded-[5px] max-xs:w-[370px]">
               <Image
                 src="/images/CardImgs/Image5.svg"
                 alt="CardImage"

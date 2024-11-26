@@ -16,11 +16,11 @@ export default function footer() {
           <div className="flex flex-col gap-4 ">
             <section className="flex gap-4 min-h-12 max-sm:flex-col max-sm:items-center">
               <input
-                className="border-[1px] border-black rounded-[5px] p-3 font-RobotoRegular text-[#505050] focus:outline-none focus:ring-0 max-sm:w-[380px] max-sm:min-h-[48px]"
+                className="border-[1px] border-black rounded-[5px] p-3 font-RobotoRegular text-[#505050] focus:outline-none focus:ring-0 max-sm:w-[380px] max-sm:min-h-[48px] max-xs:w-[340px]"
                 type="text"
                 placeholder="Enter your email"
               ></input>
-              <button className="bg-white min-h-[48px] min-w-[119px] py-3 px-6 rounded-[5px] border-black border-[1px] hover:bg-black hover:text-white flex gap-2 font-RobotoRegular max-sm:w-[380px] max-sm:min-h-[48px] max-sm:flex max-sm:justify-center">
+              <button className="bg-white min-h-[48px] min-w-[119px] py-3 px-6 rounded-[5px] border-black border-[1px] hover:bg-black hover:text-white flex gap-2 font-RobotoRegular max-sm:w-[380px] max-sm:min-h-[48px] max-sm:flex max-sm:justify-center max-xs:w-[340px]">
                 Subscribe
               </button>
             </section>
